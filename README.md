@@ -1,7 +1,7 @@
 # Twilio-sdk-test
 
 ## This is a hand on trial for Twilio SDK for both Python and Javascript 
-
+Run this command on your terminal to clone this repository `git clone https://github.com/felaris/Twilio-sdk-test.git`
 > For Python Script install Twilio with this command
  `pip install twilio`
  
