@@ -5,7 +5,9 @@ Run this command on your terminal to clone this repository `git clone https://gi
 > For Python Script install Twilio with this command
  `pip install twilio`
  
+
  > For Javascript make sure you have [node](https://nodejs.org/en/) installed then download the twilio package with 
  `npm install twilio`
+ 
  
  > The <b>TWILIO_AUTH_SID</b> stands for the Account SID and the <b>TWILIO_AUTH_TOKEN</b> stands for the Authentication Key these can be gotten by registering a [Twilio Account](https://www.twilio.com/try-twilio)
