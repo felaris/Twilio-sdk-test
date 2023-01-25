@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 
 
 for msg in client.messages.list():
-    print(msg.to)
+    print(msg)
