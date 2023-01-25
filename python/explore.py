@@ -8,6 +8,15 @@ auth_token  = "Your Auth Token"
 
 client = Client(account_sid, auth_token)
 
+# Check messages sent
+''' for msg in client.messages.list():
+    print(msg.body) '''
 
-for msg in client.messages.list():
-    print(msg)
+
+# Create and send message
+#msg = client.messages.create(to="number", from_="number",body="The message you want to send",)
+
+# To deleted your messages 
+''' for msg in client.messages.list():
+    print(f"Deleting {msg.body}")
+    msg.delete()   '''
